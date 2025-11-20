@@ -9,7 +9,7 @@ from grove.display.jhd1802 import JHD1802   # For Grove LCD 16x2 I2C
 
 # DHT11 connected to D5 on Grove Hat
 TEMPHUM_PIN = 5
-dht_sensor = DHT('11', TEMPHUM_PIN)º
+dht_sensor = DHT('11', TEMPHUM_PIN)
 
 # KY-037 sound sensor connected to A0 (analog input 0)
 adc = ADC()

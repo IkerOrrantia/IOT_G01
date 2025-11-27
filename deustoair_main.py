@@ -54,7 +54,7 @@ def update_lcd(temp, hum, noise, status):
     lcd.setCursor(1, 0)
     lcd.write(f"N:{noise:.0f} {status}")
 
-def log_to_csv(temp, hum, noise, status, filename="/home/pi/deustoair/data.csv"):
+def log_to_csv(temp, hum, noise, status, filename="/home/pi08/deustoair/data.csv"):
     """Appends readings to a CSV file"""
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     with open(filename, "a") as f:

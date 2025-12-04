@@ -10,7 +10,7 @@ from grove.display.jhd1802 import JHD1802
 
 # --------------- CONFIGURACIÓN THINGSBOARD (HTTP) ---------------
 TB_HOST = "demo.thingsboard.io"    # Servidor de ThingsBoard
-TB_ACCESS_TOKEN = "REPLACE_WITH_YOUR_TOKEN"   # Sustituir por tu token real
+TB_ACCESS_TOKEN = "WLqV3XCKBFV8a5riIsJ1"
 
 TB_HTTP_URL = f"https://{TB_HOST}/api/v1/{TB_ACCESS_TOKEN}/telemetry"
 

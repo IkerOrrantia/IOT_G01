@@ -1,4 +1,4 @@
-DeustoAir+Panel – IoT Final Project
+DeustoAir+Panel - IoT Final Project
 Descripción general
 DeustoAir+Panel es un proyecto IoT desarrollado como parte del curso de Internet of Things. El sistema utiliza una Raspberry Pi y sensores Grove para medir temperatura, humedad y ruido ambiental. La información se procesa para generar un estado de confort, se muestra en una pantalla LCD, se guarda en un archivo CSV y se envía a la nube usando HTTP hacia ThingsBoard.
 
